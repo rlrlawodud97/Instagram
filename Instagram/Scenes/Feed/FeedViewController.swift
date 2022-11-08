@@ -8,7 +8,7 @@
 import SnapKit
 import UIKit
 
-class FeedViewController: UIViewController {
+final class FeedViewController: UIViewController {
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero)
         tableView.backgroundColor = .systemBackground
